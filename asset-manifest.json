@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cicd-practice/static/css/main.44494632.css",
-    "main.js": "/cicd-practice/static/js/main.c1550a9f.js",
+    "main.js": "/cicd-practice/static/js/main.ef2339bc.js",
     "static/js/453.0a486c5d.chunk.js": "/cicd-practice/static/js/453.0a486c5d.chunk.js",
     "index.html": "/cicd-practice/index.html",
     "main.44494632.css.map": "/cicd-practice/static/css/main.44494632.css.map",
-    "main.c1550a9f.js.map": "/cicd-practice/static/js/main.c1550a9f.js.map",
+    "main.ef2339bc.js.map": "/cicd-practice/static/js/main.ef2339bc.js.map",
     "453.0a486c5d.chunk.js.map": "/cicd-practice/static/js/453.0a486c5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44494632.css",
-    "static/js/main.c1550a9f.js"
+    "static/js/main.ef2339bc.js"
   ]
 }
