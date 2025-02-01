@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import Card from "./component/Card";
+
+import "./App.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper flex jcc aic">
+      <Card
+        numberOfInput={4}
+        separator={"-"}
+        placeholder={"1234"}
+        value={"8585"}
+        isInputNum={"4575"}
+        isDisabled={false}
+        hasErrored={true}
+      />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.flex {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.aic {
+  align-items: center;
+}
+
+.action-btn-wrapper {
+  gap: 10px;
+}
+
+.btn-primary {
+  background-color: blue;
   color: white;
+  padding: 8px 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary:disabled {
+  cursor: not-allowed;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: #f3f2f2;
+}
+
+.card {
+  padding: 32px;
+  border: 1px solid gray;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.otp-input-wrapper {
+  gap: 10px;
+}
+
+.otp-input {
+  height: 50px;
+  width: 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.otp-input:focus {
+  border: 2px solid black;
+}
+
+.error-input {
+  border-color: red;
 }
