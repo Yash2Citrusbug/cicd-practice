@@ -6,8 +6,8 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="wrapper flex jcc aic">
-      <h1>CI CD title</h1>
+    <div className="wrapper flex flex-col jcc aic">
+      <h1>CI CD title updated</h1>
       <Card
         numberOfInput={4}
         separator={"-"}
