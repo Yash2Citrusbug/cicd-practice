@@ -15,6 +15,8 @@ const Card = ({
 
   // final input value 
   const [finalInputValue, setFinalInputValue] = useState("");
+
+  console.log(finalInputValue);
   
   return (
 

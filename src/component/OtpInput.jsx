@@ -12,6 +12,8 @@ const OtpInput = ({
 }) => {
   const [inputValue, setInputValue] = useState(currentInputValue);
 
+  console.log(separator, setFinalInputValue, inputValue)
+
   // make password secure
   const getInputType = () => {
     if (isInputSecure) {
